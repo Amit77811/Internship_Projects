@@ -9,7 +9,7 @@ const reset_btn = document.querySelector(".reset-btn");
 const location_not_found = document.querySelector(".location-not-found");
 const welcome = document.querySelector(".welcome-message");
 const weather_body = document.querySelector(".weather-body");
-
+//new
 const Get_Weather = async (city) => {
   const api_key = "fd78751a8f701bb096f5af9cfabcd9b6";
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`;
