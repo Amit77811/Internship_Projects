@@ -4,7 +4,7 @@ const open_search = () => {
 const close_search = () => {
   document.getElementById("search-input").style.display = "none";
 };
-
+//new
 const swiper = new Swiper(".swiper", {
   autoplay: {
     delay: 5000,
